@@ -1,0 +1,94 @@
+doctype 5
+//- if lt IE7
+html.ie6(lang='es', xmlns:fb='http://ogp.me/ns/fb#')
+//- if IE 7
+html.ie7(lang='es', xmlns:fb='http://ogp.me/ns/fb#')
+//- if IE 8
+html.ie8(lang='es', xmlns:fb='http://ogp.me/ns/fb#')
+//- if IE 9
+html.ie9(lang='es', xmlns:fb='http://ogp.me/ns/fb#')
+//- [if (gt IE 9)|!(IE)] <!
+html(lang='es', xmlns:fb='http://ogp.me/ns/fb#')
+  //-  <![endif]
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    title(content="Css Display inline-block | Xio Caro") Css Display inline-block | Xio Caro
+    meta(name="title", content="Css Display inline-block | Xio Caro")
+    meta(name="description", content="Explica cómo eliminar los espacios generados entre 'li' por los atributos display:inline-block")
+    meta(name="keywords", content="keywords")
+    meta(name="author", content="autor")
+    meta(name="viewport", content="width=device-width")
+    meta(name="language", content="es")
+    meta(name="robots", content="index,follow")
+
+    meta(name="geo.region", content="PE-LIM")
+    meta(name="geo.placename", content="Cercado de Lima")
+    meta(name="geo.position", content="-12.0478;-77.0622")
+    meta(name="ICBM", content="-12.0478, -77.0622")
+
+    meta(property="og:title", content="Css Display inline-block | Xio Caro")
+    meta(property="og:description", content="Explica cómo eliminar los espacios generados entre 'li' por los atributos display:inline-block")
+    meta(property="og:image", content="img/logo.jpg")
+    link(href="http://xiocaro.com/src/img/logo.jpg", rel="image_src", type="image/jpeg")
+
+    //- Favicon
+    link(href="img/favicon.ico", rel="icon", type="image/vnd.microsoft.icon")
+    link(href="img/favicon.ico", rel="shortcut icon", type="image/x-icon")
+
+    meta(name="DC.Title", content="Css Display inline-block | Xio Caro")
+    meta(name="DC.Creator", content="Xio Caro")
+    meta(name="DC.Description", content="Explica cómo eliminar los espacios generados entre 'li' por los atributos display:inline-block")
+    meta(name="DC.Publisher", content="Xio Caro")
+    meta(name="DC.Contributor", content="opcional")
+    meta(name="DC.Language", content="es")
+
+    //- Insertamos nuestro .css
+    link(href='css.css?v=version', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Maven+Pro:400,700', rel='stylesheet', type='text/css')
+
+    //- Open graph
+    meta(property='og:title', content='Css Display inline-block | Xio Caro')
+    meta(property='og:description', content="Explica cómo eliminar los espacios generados entre 'li' por los atributos display:inline-block")
+    meta(property='og:image', content='http://xiocaro.com/src/img/logo.jpg')
+
+    //- Favicon
+    //- link(rel='apple-touch-icon', href='img/favicon-iphone.png')
+    link(href="favicon.ico", rel="icon", type="image/vnd.microsoft.icon")
+    link(href="favicon.ico", rel="shortcut icon", type="image/x-icon")
+body
+  section
+    h1 Css Display inline-block 
+    h2 1. Ejemplo con botones: nav ul li 
+    nav
+      ul
+        li
+          a(href="javascript:;" , title="botón 1") botón 1
+        li
+          a(href="javascript:;" , title="botón 2") botón 2
+        li
+          a(href="javascript:;" , title="botón 3") botón 3
+        li
+          a(href="javascript:;" , title="botón 4") botón 4
+    h2 2. Ejemplo con contenidos:  ul li
+    article
+      ul
+        li
+          p Si un problema tiene solución, no hace falta preocuparse. Si no tiene solución, preocuparse no sirve de nada.
+        li
+          p Si un día te sientes inútil y deprimido… ¡¡¡recuerda que fuiste el espermatozoide más veloz de todos…!!!
+        li
+          p Nos preguntamos ¿quién me he creído para ser brillante, espléndido, talentoso, sensacional?, pero en realidad ¿quiénes nos hemos creído para no serlo?.
+        li
+          p Tienes toda la vida por delante para pulir defectos, y toda la vida por detrás para acumular virtudes.
+    h2 3. Ejemplo con contenidos de imágenes:  ul li img
+    article
+      ul
+        li
+          img(src="http://4.bp.blogspot.com/-dIkgY3kbcbc/Tj6m74eTEJI/AAAAAAAAAxA/gAjytOa7T-Y/s1600/Los_Caballeros_del_Zodiaco-1024x768-802273.jpeg", alt="xio")
+        li
+          img(src="http://3.bp.blogspot.com/-rKDAwDL-Qew/TzMvlPV9HiI/AAAAAAAAH3U/vEZofiyGDLk/s1600/caballero%2Bzodiaco%2Bvirgo.jpg", alt="xio")
+        li
+          img(src="http://badhairdays.net/wp-content/uploads/2013/11/athena.png", alt="xio")
+        li
+          img(src="http://www.fanhammer.org/wp-content/uploads/2012/09/663377caballeros20del20zodiaco.jpg", alt="xio")

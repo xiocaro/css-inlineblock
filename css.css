@@ -1,0 +1,71 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+h1 {
+  border-bottom: 1px dashed #ccc;
+  color: #028b9b;
+  font: 28px/30px 'Maven Pro', sans-serif;
+  padding-bottom: 15px;
+  text-align: center;
+}
+h2 {
+  color: #333;
+  font: 20px/22px 'Maven Pro', sans-serif;
+  margin: 40px 0 30px;
+}
+nav ul {
+  font-size: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  width: 25%;
+}
+nav ul li a {
+  background: #808080;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background: #028b9b;
+}
+article ul {
+  font-size: 0;
+  padding: 0;
+}
+article ul li {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 25%;
+  min-width: 200px;
+}
+article ul li p {
+  background: url("http://www.designals.net/wp-content/uploads/2011/09/PaperTexture-2.jpg") #e1c07d;
+  border-radius: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+}
+article ul li p:hover {
+  box-shadow: 0 2px 4px #333;
+}
+article ul li img {
+  border: 5px solid #fff;
+  box-shadow: 0 2px 4px #333;
+  height: auto;
+  width: 80%;
+}
